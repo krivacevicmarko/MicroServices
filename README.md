@@ -1,5 +1,5 @@
 # Skript jezici 2024
 
-Ime i prezime: XXXXX
+Ime i prezime: Marko Krivacevic
 
-Broj indeksa:  XXXXX
+Broj indeksa:  RN 119/2021
