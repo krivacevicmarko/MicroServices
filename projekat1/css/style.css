@@ -1,0 +1,46 @@
+.body {
+    background-color: rgb(117, 121, 191);
+    padding: 1rem;
+}
+
+.navbar {
+    border-radius: 20px;
+    background-color: rgb(42, 48, 165);
+}
+
+.btnsearch {
+    border-radius: 20px;
+    background-color: rgba(45, 5, 97, 0.25) ; /* Braon pozadina dugmeta */
+    color: #fff !important; /* Bela boja teksta */
+    border: none !important; /* Uklanjanje ivica */
+}
+.btnsearch:hover {
+    background-color: rgba(219, 210, 231, 0.25);
+}
+
+.dropdown-menu {
+    background-color: rgb(42, 48, 165) !important; /* Plavkasta pozadina menija */
+}
+
+.dropdown-item {
+    color: #fff !important; /* Bele boje za stavke u meniju */
+}
+
+.dropdown-item:hover {
+    background-color: rgba(219, 210, 231, 0.25) !important; /* Boja pozadine kada se hoveruje */
+    color: rgb(42, 48, 165) !important; /* Možeš promeniti ovu boju ako želiš */
+}
+
+.form-control:focus {
+    border-color: rgba(45, 5, 97, 0.25) ; /* Braon boja */
+    box-shadow: 0 0 0 0.25rem rgba(45, 5, 97, 0.25) ; /* Blago braon senčenje */
+    outline: none;
+}
+.carousel {
+    max-height: 400px; /* Postavi maksimalnu visinu karusela */
+}
+.carousel-item img {
+    max-height: 400px; /* Postavi maksimalnu visinu slika */
+    width: 100%; /* Osiguraj da slike zauzmu celu širinu */
+    object-fit: cover; /* Prilagodi slike da popune prostor bez gubitka proporcija */
+}
