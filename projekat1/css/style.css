@@ -10,37 +10,55 @@
 
 .btnsearch {
     border-radius: 20px;
-    background-color: rgba(45, 5, 97, 0.25) ; /* Braon pozadina dugmeta */
-    color: #fff !important; /* Bela boja teksta */
-    border: none !important; /* Uklanjanje ivica */
+    background-color: rgba(45, 5, 97, 0.25) ; 
+    color: #fff !important; 
+    border: none !important; 
 }
 .btnsearch:hover {
     background-color: rgba(219, 210, 231, 0.25);
 }
 
 .dropdown-menu {
-    background-color: rgb(42, 48, 165) !important; /* Plavkasta pozadina menija */
+    background-color: rgb(42, 48, 165) !important; 
 }
 
 .dropdown-item {
-    color: #fff !important; /* Bele boje za stavke u meniju */
+    color: #fff !important; 
 }
 
 .dropdown-item:hover {
-    background-color: rgba(219, 210, 231, 0.25) !important; /* Boja pozadine kada se hoveruje */
-    color: rgb(42, 48, 165) !important; /* Možeš promeniti ovu boju ako želiš */
+    background-color: rgba(219, 210, 231, 0.25) !important; 
+    color: rgb(42, 48, 165) !important; 
 }
 
 .form-control:focus {
-    border-color: rgba(45, 5, 97, 0.25) ; /* Braon boja */
-    box-shadow: 0 0 0 0.25rem rgba(45, 5, 97, 0.25) ; /* Blago braon senčenje */
+    border-color: rgba(45, 5, 97, 0.25) ; 
+    box-shadow: 0 0 0 0.25rem rgba(45, 5, 97, 0.25) ; 
     outline: none;
 }
 .carousel {
-    max-height: 400px; /* Postavi maksimalnu visinu karusela */
+    max-height: 400px; 
 }
 .carousel-item img {
-    max-height: 400px; /* Postavi maksimalnu visinu slika */
-    width: 100%; /* Osiguraj da slike zauzmu celu širinu */
-    object-fit: cover; /* Prilagodi slike da popune prostor bez gubitka proporcija */
+    max-height: 400px; 
+    width: 100%; 
+    object-fit: cover; 
 }
+.card {
+    background-color: rgba(195, 184, 224, 0.9)!important; /* Svetla pozadina za card */
+    border: 2px solid rgb(42, 48, 165); /* Tamna ivica da odgovara boji navigacije */
+    border-radius: 15px; /* Zaobljeni uglovi */
+    color: rgb(42, 48, 165); /* Tamniji tekst za bolji kontrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Blaga senka da se card istakne */
+}
+
+.card-title {
+    color: rgb(45, 5, 97); /* Tamnija boja za naslov */
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.1rem; /* Lagano povećanje fonta za tekst unutar card-a */
+    color: rgb(42, 48, 165); /* Da se slaže s ostatkom sajta */
+}
+
