@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ApiGatewayy" />
+        <module name="KorisnickiMicroServis" />
+        <module name="NotificationMicroSeris" />
+        <module name="cinema-client-application" />
+        <module name="emal-service" />
+        <module name="Eureka" />
+        <module name="ReservationSerice" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApiGatewayy" options="-parameters" />
+      <module name="Eureka" options="-parameters" />
+      <module name="KorisnickiMicroServis" options="-parameters" />
+      <module name="NotificationMicroSeris" options="-parameters" />
+      <module name="ReservationSerice" options="-parameters" />
+      <module name="emal-service" options="-parameters" />
+    </option>
+  </component>
+</project>
