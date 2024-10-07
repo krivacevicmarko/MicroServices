@@ -45,20 +45,20 @@
     object-fit: cover; 
 }
 .card {
-    background-color: rgba(195, 184, 224, 0.9)!important; /* Svetla pozadina za card */
-    border: 2px solid rgb(42, 48, 165); /* Tamna ivica da odgovara boji navigacije */
-    border-radius: 15px; /* Zaobljeni uglovi */
-    color: rgb(42, 48, 165); /* Tamniji tekst za bolji kontrast */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Blaga senka da se card istakne */
+    background-color: rgba(195, 184, 224, 0.9)!important; 
+    border: 2px solid rgb(42, 48, 165); 
+    border-radius: 15px; 
+    color: rgb(42, 48, 165); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .card-title {
-    color: rgb(45, 5, 97); /* Tamnija boja za naslov */
+    color: rgb(45, 5, 97); 
     font-weight: bold;
 }
 
 .card-text {
-    font-size: 1.1rem; /* Lagano povećanje fonta za tekst unutar card-a */
-    color: rgb(42, 48, 165); /* Da se slaže s ostatkom sajta */
+    font-size: 1.1rem; 
+    color: rgb(42, 48, 165);
 }
 
